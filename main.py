@@ -47,7 +47,7 @@ def validate_age(age):
     return True
 
 def validate_gender(gender):
-    return gender.lower() in ['Male', 'Female', 'Other']
+    return gender.lower() in ['male', 'female', 'other']
 
 
 
